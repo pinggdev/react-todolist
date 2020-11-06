@@ -7,22 +7,6 @@
   --main-black-color: #484848;
 }
 
-.main-red-color {
-  color: var(--main-red-color);
-}
-
-.main-black-color {
-  color: var(--main-black-color);
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
 html {
   font-size: 10px;
 }
@@ -73,25 +57,6 @@ html {
   font-size: 3.6rem;
   font-family: "Homemade Apple", sans-serif;
   text-transform: lowercase;
-}
-
-.header-btn {
-  width: 24%;
-  font-size: 1.8rem;
-  font-family: "Bungee", sans-serif;
-  padding: 10px 16px;
-  background: unset;
-  border: unset;
-  outline: unset;
-  cursor: pointer;
-}
-
-.header-btn.main-red-color:active {
-  text-shadow: 1px 1px 2px var(--main-red-color);
-}
-
-.header-btn.main-black-color:active {
-  text-shadow: 1px 1px 2px var(--main-black-color);
 }
 
 .add {

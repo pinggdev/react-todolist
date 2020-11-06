@@ -1,0 +1,34 @@
+.mainRedColor {
+  color: var(--main-red-color);
+}
+
+.mainBlackColor {
+  color: var(--main-black-color);
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.headerBtn {
+  width: 24%;
+  font-size: 1.8rem;
+  font-family: "Bungee", sans-serif;
+  padding: 10px 16px;
+  background: unset;
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+}
+
+.headerBtn.mainRedColor:active {
+  text-shadow: 1px 1px 2px var(--main-red-color);
+}
+
+.headerBtn.mainBlackColor:active {
+  text-shadow: 1px 1px 2px var(--main-black-color);
+}
