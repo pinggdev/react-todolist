@@ -9,7 +9,8 @@ const Container = ({
   flexWrap,
   justifyContent,
   alignItems,
-  alignContent
+  alignContent,
+  height
 }) => {
   const containerStyles = css`
     display: flex;
@@ -18,6 +19,7 @@ const Container = ({
     justify-content: ${justifyContent};
     align-items: ${alignItems};
     align-content: ${alignContent};
+    height: ${height};
   `;
   return (
     <div className="flex-container" css={containerStyles}>
@@ -31,7 +33,8 @@ Container.defaultProps = {
   flexWrap: "nowrap",
   justifyContent: "flex-start",
   alignItems: "stretch",
-  alignContent: "stretch"
+  alignContent: "stretch",
+  height: "auto"
 };
 
 Container.propTypes = {
@@ -84,7 +87,8 @@ Container.propTypes = {
     "baseline",
     "first baseline",
     "first baseline"
-  ])
+  ]),
+  height: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
 };
 
 export default Container;
