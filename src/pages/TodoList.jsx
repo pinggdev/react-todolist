@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 import useStateWithLocalStorage from "../hooks/useStateWithLocalStorage";
-import Paper from "../components/paper/PaperClass";
-import Header from "../components/header/HeaderClass";
-import TodoForm from "../components/todoform/TodoFormClass";
-import Todos from "../components/todos/TodosClass";
+import Paper from "../components/paper/Paper";
+import Header from "../components/header/Header";
+import TodoForm from "../components/todoform/TodoForm";
+import Todos from "../components/todos/Todos";
 
 import Container from "../layout/Container";
 
